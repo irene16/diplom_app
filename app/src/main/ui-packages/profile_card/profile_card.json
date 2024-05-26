@@ -1,0 +1,171 @@
+{
+  "name": "profile_card",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "910:1270",
+    "version": "5826331562",
+    "component-id": "c4ccef7a4641338c1b387f3e9b4e70193c8a5818"
+  },
+  "default": "profileCard",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "profilePhoto"
+      },
+      {
+        "type": "group",
+        "id": "profileInfo"
+      },
+      {
+        "type": "text",
+        "id": "userName"
+      },
+      {
+        "type": "text",
+        "id": "userPhoneNumber"
+      }
+    ],
+    "modes": {
+      "profileCard": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 11.0,
+              "right": 16.0,
+              "bottom": 11.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on profileCard tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "profilePhoto",
+              "profileInfo"
+            ],
+            "item-spacing": 16.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "profilePhoto",
+            "border-radius": 32.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 55.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 55.0
+              }
+            },
+            "image-content": "$profilePhoto image content",
+            "scale": "fill"
+          },
+          {
+            "id": "profileInfo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 55.0
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "userName",
+              "userPhoneNumber"
+            ],
+            "item-spacing": 6.0,
+            "clip-content": false
+          },
+          {
+            "id": "userName",
+            "font-weight": 600.0,
+            "text-content": "$userName",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "userPhoneNumber",
+            "font-weight": 500.0,
+            "text-content": "$userPhoneNumber",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on profileCard tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "profilePhoto image content": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "userName": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "userPhoneNumber": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "profileCard",
+      "size": {
+        "width": 328.0,
+        "height": 77.0
+      },
+      "parameters": {
+        "profilePhoto image content": "profile_photo.png",
+        "userName": "Ирина",
+        "userPhoneNumber": "+7 925-570-50-63"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

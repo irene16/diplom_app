@@ -1,0 +1,306 @@
+{
+  "name": "item",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "919:1964",
+    "version": "5832903618",
+    "component-id": "71df9d9dc686ee73ca1163081ac48b1da42fe137"
+  },
+  "default": "item",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "item_image"
+      },
+      {
+        "type": "group",
+        "id": "item_top"
+      },
+      {
+        "type": "group",
+        "id": "item_bottom"
+      },
+      {
+        "type": "text",
+        "id": "item_name"
+      },
+      {
+        "type": "text",
+        "id": "item_size"
+      },
+      {
+        "type": "text",
+        "id": "item_price"
+      },
+      {
+        "type": "group",
+        "id": "item_button"
+      },
+      {
+        "type": "vector",
+        "id": "item_buttonRound"
+      },
+      {
+        "type": "text",
+        "id": "item_buttonPlus"
+      }
+    ],
+    "modes": {
+      "item": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 10.0,
+            "border-radius": 12.0,
+            "tap-handler": "$on item tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "item_image",
+              "item_top",
+              "item_bottom"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "item_image",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 134.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 122.0
+              }
+            },
+            "image-content": "$item_image",
+            "scale": "fill"
+          },
+          {
+            "id": "item_top",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 133.640625
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "item_name",
+              "item_size"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "item_bottom",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 134.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "item_price",
+              "item_button"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "item_name",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 73.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "$item_name",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "item_size",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 36.640625
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "text-content": "$item_size",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "item_price",
+            "text-content": "$item_price",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "item_button",
+            "tap-handler": "$on item_button tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "item_buttonRound",
+              "item_buttonPlus"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "item_buttonRound",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "vector-content": "item_button_round.svg"
+          },
+          {
+            "id": "item_buttonPlus",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "font-weight": 600.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "+",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align-vertical": "center",
+            "text-size": 15.0,
+            "line-height": 1.5,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on item tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "item_image": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "item_name": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "item_size": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "item_price": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "on item_button tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "item",
+      "size": {
+        "width": 154.0,
+        "height": 196.0
+      },
+      "parameters": {
+        "item_image": "item_image.png",
+        "item_name": "Бамбл кофе",
+        "item_size": "350 мл",
+        "item_price": "320 ₽"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

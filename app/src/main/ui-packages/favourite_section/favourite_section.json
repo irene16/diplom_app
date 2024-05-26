@@ -1,0 +1,73 @@
+{
+  "name": "favourite_section",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "838:1001",
+    "version": "5840258852",
+    "component-id": "9879e62ceccfee0725326a64bb0c1bd9318035f0"
+  },
+  "default": "favouriteSection",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "favourite_text"
+      }
+    ],
+    "modes": {
+      "favouriteSection": {
+        "rules": [
+          {
+            "id": "top_level",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "favourite_text"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "favourite_text",
+            "font-weight": 600.0,
+            "text-content": "$favourite_text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "favourite_text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "favouriteSection",
+      "size": {
+        "width": 344.0,
+        "height": 28.0
+      },
+      "parameters": {
+        "favourite_text": "Любимое:"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,533 @@
+{
+  "name": "search_buttons",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "838:975",
+    "version": "5842842819",
+    "component-id": "f93582c312da94fa86f2d81ebbdc55b6cd07143e"
+  },
+  "default": "search buttons",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "searchButton"
+      },
+      {
+        "type": "group",
+        "id": "NewCoffee"
+      },
+      {
+        "type": "group",
+        "id": "BlackCoffee"
+      },
+      {
+        "type": "group",
+        "id": "MilkCoffee"
+      },
+      {
+        "type": "group",
+        "id": "ColdCoffee"
+      },
+      {
+        "type": "group",
+        "id": "Tea"
+      },
+      {
+        "type": "group",
+        "id": "Matcha"
+      },
+      {
+        "type": "group",
+        "id": "searchIcon"
+      },
+      {
+        "type": "vector",
+        "id": "RoundVector"
+      },
+      {
+        "type": "vector",
+        "id": "BottomLineVector"
+      },
+      {
+        "type": "text",
+        "id": "NewCoffeeText"
+      },
+      {
+        "type": "text",
+        "id": "BlackCoffeeText"
+      },
+      {
+        "type": "text",
+        "id": "milkCoffeeText"
+      },
+      {
+        "type": "text",
+        "id": "ColdCoffeeText"
+      },
+      {
+        "type": "text",
+        "id": "TeaText"
+      },
+      {
+        "type": "text",
+        "id": "MatchaText"
+      }
+    ],
+    "modes": {
+      "search buttons": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "top": 3.0,
+              "bottom": 3.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "searchButton",
+              "NewCoffee",
+              "BlackCoffee",
+              "MilkCoffee",
+              "ColdCoffee",
+              "Tea",
+              "Matcha"
+            ],
+            "item-spacing": 2.0,
+            "scrollable": true
+          },
+          {
+            "id": "searchButton",
+            "padding": {
+              "left": 7.0,
+              "right": 7.0
+            },
+            "tap-handler": "$on Search tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 23.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "searchIcon"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "NewCoffee",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on NewCoffee tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "NewCoffeeText"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "BlackCoffee",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on BlackCoffee tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "BlackCoffeeText"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "MilkCoffee",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on MilkCoffee tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 84.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "milkCoffeeText"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "ColdCoffee",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on ColdCoffee tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "ColdCoffeeText"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Tea",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on Tea tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "TeaText"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Matcha",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on Matcha tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "MatchaText"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "searchIcon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.5
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "RoundVector",
+              "BottomLineVector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "RoundVector",
+            "margin": {
+              "left": 1.5,
+              "top": 3.0374755859375,
+              "right": 4.5,
+              "bottom": 4.470024108886719
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "round_vector.svg"
+          },
+          {
+            "id": "BottomLineVector",
+            "margin": {
+              "left": 14.42999267578125,
+              "top": 15.91497802734375,
+              "right": 1.4850082397460938,
+              "bottom": 1.4999699592590332
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "bottom_line_vector.svg"
+          },
+          {
+            "id": "NewCoffeeText",
+            "font-weight": 500.0,
+            "text-content": "$NewCoffeeText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "BlackCoffeeText",
+            "font-weight": 500.0,
+            "text-content": "$BlackCoffeeText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "milkCoffeeText",
+            "font-weight": 500.0,
+            "text-content": "$milkCoffeeText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "ColdCoffeeText",
+            "font-weight": 500.0,
+            "text-content": "$ColdCoffeeText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "TeaText",
+            "font-weight": 500.0,
+            "text-content": "$TeaText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "MatchaText",
+            "font-weight": 500.0,
+            "text-content": "$MatchaText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Custom parameter": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "on Search tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on NewCoffee tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on BlackCoffee tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on MilkCoffee tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on ColdCoffee tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Tea tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on Matcha tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "NewCoffeeText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "BlackCoffeeText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "milkCoffeeText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "ColdCoffeeText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "TeaText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "MatchaText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "search buttons",
+      "size": {
+        "width": 502.5,
+        "height": 29.0
+      },
+      "parameters": {
+        "NewCoffeeText": "Новинки",
+        "BlackCoffeeText": "Чёрный",
+        "milkCoffeeText": "С молоком",
+        "ColdCoffeeText": "Холодный",
+        "TeaText": "Чай",
+        "MatchaText": "Матча и какао"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,81 @@
+{
+  "name": "menu_section",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "919:1854",
+    "version": "5833232782",
+    "component-id": "103a622be374ac8fd074e8ece29b174b113dd2a8"
+  },
+  "default": "MenuSection",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "MenuSectionText"
+      }
+    ],
+    "modes": {
+      "MenuSection": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "MenuSectionText"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "MenuSectionText",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "font-weight": 600.0,
+            "text-content": "$MenuSectionText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "MenuSectionText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "MenuSection",
+      "size": {
+        "width": 89.0,
+        "height": 28.0
+      },
+      "parameters": {
+        "MenuSectionText": "Чёрный:"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

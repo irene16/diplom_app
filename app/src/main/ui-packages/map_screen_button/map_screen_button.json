@@ -1,0 +1,179 @@
+{
+  "name": "map_screen_button",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "940:2143",
+    "version": "5834988510",
+    "component-id": "4e399359e334dea33a15af5c82c74f1cdf52f97f"
+  },
+  "default": "mapScreenButton",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "MapScreenIcon"
+      },
+      {
+        "type": "group",
+        "id": "mapScreenInfo"
+      },
+      {
+        "type": "vector",
+        "id": "MapScreenVector"
+      },
+      {
+        "type": "text",
+        "id": "mapScreenAddressKm"
+      }
+    ],
+    "modes": {
+      "mapScreenButton": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 11.0,
+              "right": 16.0,
+              "bottom": 11.0
+            },
+            "border-radius": 20.0,
+            "tap-handler": "$on mapScreenButton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "MapScreenIcon",
+              "mapScreenInfo"
+            ],
+            "item-spacing": 8.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "MapScreenIcon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "MapScreenVector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "mapScreenInfo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "mapScreenAddressKm"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "MapScreenVector",
+            "margin": {
+              "left": 2.9993896484375,
+              "top": 3.00262451171875,
+              "right": 3.0026416778564453,
+              "bottom": 2.9990615844726562
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.75
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.75
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "map_screen_vector.svg"
+          },
+          {
+            "id": "mapScreenAddressKm",
+            "font-weight": 600.0,
+            "text-content": "$mapScreenAddressKm",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on mapScreenButton tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "mapScreenAddressKm": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "mapScreenButton",
+      "size": {
+        "width": 328.0,
+        "height": 46.0
+      },
+      "parameters": {
+        "mapScreenAddressKm": "Найти ближайшую кофейню"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

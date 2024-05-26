@@ -1,0 +1,260 @@
+{
+  "name": "menu",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "920:1982",
+    "version": "5833042240",
+    "component-id": "91526c6e436d100233230d4df28a5597d248c57a"
+  },
+  "default": "menu",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "item"
+      }
+    ],
+    "modes": {
+      "menu": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "bottom": 52.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "item"
+            ],
+            "item-spacing": 20.0,
+            "clip-content": false
+          },
+          {
+            "id": "item",
+            "padding": 10.0,
+            "border-radius": 12.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 154.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": "$item",
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "item": {
+      "data-type": "list-item",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "menu",
+      "size": {
+        "width": 328.0,
+        "height": 248.0
+      },
+      "parameters": {
+        "item": [
+          {
+            "type": "image",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 134.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 122.0
+              }
+            },
+            "image-content": "item_image.png",
+            "scale": "fill"
+          },
+          {
+            "type": "group",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 133.640625
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              {
+                "type": "text",
+                "size-constraints": {
+                  "width-constraints": {
+                    "sizing-mode": "fixed",
+                    "value": 73.0
+                  },
+                  "height-constraints": {
+                    "sizing-mode": "shrink"
+                  }
+                },
+                "font-weight": 500.0,
+                "text-content": "Бамбл кофе",
+                "overflow": "visible",
+                "max-lines": -1,
+                "text-align": "left",
+                "text-size": 12.0,
+                "line-height": 1.4,
+                "typeface": "Poppins"
+              },
+              {
+                "type": "text",
+                "size-constraints": {
+                  "width-constraints": {
+                    "sizing-mode": "fixed",
+                    "value": 36.640625
+                  },
+                  "height-constraints": {
+                    "sizing-mode": "shrink"
+                  }
+                },
+                "text-content": "350 мл",
+                "overflow": "visible",
+                "max-lines": -1,
+                "text-align": "left",
+                "text-size": 10.0,
+                "line-height": 1.4,
+                "typeface": "Poppins"
+              }
+            ],
+            "item-spacing": 24.0,
+            "clip-content": false
+          },
+          {
+            "type": "group",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 134.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 17.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              {
+                "type": "text",
+                "text-content": "320 ₽",
+                "overflow": "visible",
+                "text-align": "left",
+                "text-size": 12.0,
+                "line-height": 1.4,
+                "typeface": "Poppins"
+              },
+              {
+                "type": "group",
+                "size-constraints": {
+                  "width-constraints": {
+                    "sizing-mode": "fixed",
+                    "value": 17.0
+                  },
+                  "height-constraints": {
+                    "sizing-mode": "fixed",
+                    "value": 17.0
+                  }
+                },
+                "is-structured": false,
+                "children": [
+                  {
+                    "type": "vector",
+                    "size-constraints": {
+                      "width-constraints": {
+                        "sizing-mode": "fixed",
+                        "value": 17.0
+                      },
+                      "height-constraints": {
+                        "sizing-mode": "fixed",
+                        "value": 17.0
+                      }
+                    },
+                    "vector-content": "item_button_round.svg"
+                  },
+                  {
+                    "type": "text",
+                    "size-constraints": {
+                      "width-constraints": {
+                        "sizing-mode": "fixed",
+                        "value": 17.0
+                      },
+                      "height-constraints": {
+                        "sizing-mode": "fixed",
+                        "value": 17.0
+                      }
+                    },
+                    "font-weight": 600.0,
+                    "color": {
+                      "alpha": 1.0,
+                      "hue": 0.0,
+                      "saturation": 0.0,
+                      "value": 1.0
+                    },
+                    "text-content": "+",
+                    "overflow": "visible",
+                    "max-lines": -1,
+                    "text-align-vertical": "center",
+                    "text-size": 15.0,
+                    "line-height": 1.5,
+                    "typeface": "Poppins"
+                  }
+                ],
+                "clip-content": false
+              }
+            ],
+            "item-spacing": 84.0,
+            "clip-content": false
+          }
+        ]
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

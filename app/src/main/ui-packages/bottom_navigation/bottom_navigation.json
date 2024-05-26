@@ -1,0 +1,369 @@
+{
+  "name": "bottom_navigation",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "838:1099",
+    "version": "5825043592",
+    "component-id": "12910cc4153c17217c1ba25a84636f73c0afb504"
+  },
+  "default": "bottom_navigation",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "main_screen_button"
+      },
+      {
+        "type": "group",
+        "id": "bag_screen_button"
+      },
+      {
+        "type": "group",
+        "id": "profile_screen_button"
+      },
+      {
+        "type": "group",
+        "id": "mainScreenCoffeeIcon"
+      },
+      {
+        "type": "vector",
+        "id": "CoffeeIconVector"
+      },
+      {
+        "type": "group",
+        "id": "BagScreenIcon"
+      },
+      {
+        "type": "vector",
+        "id": "BagIconVector"
+      },
+      {
+        "type": "group",
+        "id": "ProfileScreenIcon"
+      },
+      {
+        "type": "vector",
+        "id": "ProfileScreenIconButtonVector"
+      },
+      {
+        "type": "vector",
+        "id": "ProfileScreenIconTopVector"
+      }
+    ],
+    "modes": {
+      "bottom_navigation": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 32.0,
+              "top": 4.0,
+              "right": 32.0,
+              "bottom": 4.0
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "main_screen_button",
+              "bag_screen_button",
+              "profile_screen_button"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "main_screen_button",
+            "padding": {
+              "left": 29.0,
+              "top": 4.0,
+              "right": 29.0,
+              "bottom": 4.0
+            },
+            "tap-handler": "$on main_screen_button tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 83.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "mainScreenCoffeeIcon"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "bag_screen_button",
+            "padding": {
+              "left": 35.0,
+              "top": 7.0,
+              "right": 35.0,
+              "bottom": 7.0
+            },
+            "tap-handler": "$on bag_screen_button tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 83.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "BagScreenIcon"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "profile_screen_button",
+            "padding": {
+              "left": 20.0,
+              "top": 8.0,
+              "right": 20.0,
+              "bottom": 8.0
+            },
+            "tap-handler": "$on profile_screen_button tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 83.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "ProfileScreenIcon"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "mainScreenCoffeeIcon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "CoffeeIconVector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "CoffeeIconVector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "coffee_icon_vector.svg"
+          },
+          {
+            "id": "BagScreenIcon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "BagIconVector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "BagIconVector",
+            "margin": {
+              "left": 2.99273681640625,
+              "top": 2.0,
+              "right": 2.9914493560791016,
+              "bottom": 2.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.75
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.75
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "bag_icon_vector.svg"
+          },
+          {
+            "id": "ProfileScreenIcon",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "ProfileScreenIconButtonVector",
+              "ProfileScreenIconTopVector"
+            ]
+          },
+          {
+            "id": "ProfileScreenIconButtonVector",
+            "margin": {
+              "left": 4.0,
+              "top": 14.0,
+              "right": 4.0,
+              "bottom": 4.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.75
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.75
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "profile_screen_icon_button_vector.svg"
+          },
+          {
+            "id": "ProfileScreenIconTopVector",
+            "margin": {
+              "left": 9.0,
+              "top": 4.0,
+              "right": 9.0,
+              "bottom": 14.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.75
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.75
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "profile_screen_icon_top_vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on main_screen_button tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on bag_screen_button tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on profile_screen_button tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "bottom_navigation",
+      "size": {
+        "width": 360.0,
+        "height": 48.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

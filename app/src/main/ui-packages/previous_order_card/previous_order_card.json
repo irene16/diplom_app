@@ -1,0 +1,1824 @@
+{
+  "name": "previous_order_card",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "910:1324",
+    "version": "5826340287",
+    "component-id": "98b5ff84a9040c223f62f8cb43bc970acc2b9ca9"
+  },
+  "default": "DefaultVar",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "dateAndPrice"
+      },
+      {
+        "type": "group",
+        "id": "lineGroup"
+      },
+      {
+        "type": "group",
+        "id": "previousItemBox"
+      },
+      {
+        "type": "text",
+        "id": "dateInfo"
+      },
+      {
+        "type": "text",
+        "id": "priceInfo"
+      },
+      {
+        "type": "group",
+        "id": "linee"
+      },
+      {
+        "type": "vector",
+        "id": "VectorLine"
+      },
+      {
+        "type": "group",
+        "id": "previousItemInfo"
+      },
+      {
+        "type": "group",
+        "id": "previousItem"
+      },
+      {
+        "type": "group",
+        "id": "previousItemPrice"
+      },
+      {
+        "type": "image",
+        "id": "previousItemPhoto"
+      },
+      {
+        "type": "group",
+        "id": "previousItemNameSize"
+      },
+      {
+        "type": "text",
+        "id": "previousItemNameAndSize"
+      },
+      {
+        "type": "text",
+        "id": "previousItemPriceText"
+      },
+      {
+        "type": "group",
+        "id": "previousItemAdds"
+      },
+      {
+        "type": "text",
+        "id": "previousItemAdd1"
+      },
+      {
+        "type": "text",
+        "id": "previousItemAdd2"
+      },
+      {
+        "type": "text",
+        "id": "previousItemAdd3"
+      }
+    ],
+    "modes": {
+      "DefaultVar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 10.0,
+            "border-radius": 12.0,
+            "tap-handler": "$on OrderCard tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "dateAndPrice",
+              "lineGroup",
+              "previousItemBox"
+            ],
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "dateAndPrice",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "dateInfo",
+              "priceInfo"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "lineGroup",
+            "relative-transform": [
+              [
+                1.9081958235744878e-16,
+                -1.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.9081958235744878e-16,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 308.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "linee"
+            ]
+          },
+          {
+            "id": "previousItemBox",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 35.69697570800781
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "previousItemInfo"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "dateInfo",
+            "text-content": "$dateInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "priceInfo",
+            "text-content": "$priceInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "linee",
+            "margin": {
+              "top": 153.71175131201744,
+              "bottom": 153.7118123471737
+            },
+            "relative-transform": [
+              [
+                9.084468063971774e-18,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                -3.279494731334154e-15,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "VectorLine"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "VectorLine",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector_line.svg"
+          },
+          {
+            "id": "previousItemInfo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 308.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 35.69697570800781
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "previousItem",
+              "previousItemPrice"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "previousItem",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "previousItemPhoto",
+              "previousItemNameSize"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPrice",
+            "padding": {
+              "top": 9.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 61.246334075927734
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "children": [
+              "previousItemPriceText"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPhoto",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "image-content": "$previousItemPhoto",
+            "scale": "fill"
+          },
+          {
+            "id": "previousItemNameSize",
+            "padding": {
+              "left": 10.0,
+              "top": 9.0,
+              "right": 10.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "previousItemNameAndSize"
+            ],
+            "item-spacing": 1.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemNameAndSize",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemNameAndSize",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemPriceText",
+            "text-content": "$previousItemPriceText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      },
+      "Variant1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 10.0,
+            "border-radius": 12.0,
+            "tap-handler": "$on OrderCard tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "dateAndPrice",
+              "lineGroup",
+              "previousItemBox"
+            ],
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "dateAndPrice",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "dateInfo",
+              "priceInfo"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "lineGroup",
+            "relative-transform": [
+              [
+                1.9081958235744878e-16,
+                -1.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.9081958235744878e-16,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 308.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "linee"
+            ]
+          },
+          {
+            "id": "previousItemBox",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 48.757572174072266
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "previousItemInfo",
+              "previousItemAdds"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "dateInfo",
+            "text-content": "$dateInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "priceInfo",
+            "text-content": "$priceInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "linee",
+            "margin": {
+              "top": 153.71175131201744,
+              "bottom": 153.7118123471737
+            },
+            "relative-transform": [
+              [
+                9.084468063971774e-18,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                -3.279494731334154e-15,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "VectorLine"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "VectorLine",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector_line1.svg"
+          },
+          {
+            "id": "previousItemInfo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 307.246337890625
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "previousItem",
+              "previousItemPrice"
+            ],
+            "item-spacing": 79.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemAdds",
+            "padding": {
+              "left": 49.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 34.757568359375
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 148.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 14.0
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "previousItemAdd1"
+            ],
+            "item-spacing": 1.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItem",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "previousItemPhoto",
+              "previousItemNameSize"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPrice",
+            "padding": {
+              "top": 9.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 61.246334075927734
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "children": [
+              "previousItemPriceText"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPhoto",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "image-content": "$previousItemPhoto",
+            "scale": "fill"
+          },
+          {
+            "id": "previousItemNameSize",
+            "padding": {
+              "left": 10.0,
+              "top": 9.0,
+              "right": 10.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "previousItemNameAndSize"
+            ],
+            "item-spacing": 1.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemNameAndSize",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemNameAndSize",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemPriceText",
+            "text-content": "$previousItemPriceText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemAdd1",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemAdd1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      },
+      "Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 10.0,
+            "border-radius": 12.0,
+            "tap-handler": "$on OrderCard tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "dateAndPrice",
+              "lineGroup",
+              "previousItemBox"
+            ],
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "dateAndPrice",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "dateInfo",
+              "priceInfo"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "lineGroup",
+            "relative-transform": [
+              [
+                1.9081958235744878e-16,
+                -1.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.9081958235744878e-16,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 308.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "linee"
+            ]
+          },
+          {
+            "id": "previousItemBox",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 308.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 63.757572174072266
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "previousItemInfo",
+              "previousItemAdds"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "dateInfo",
+            "text-content": "$dateInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "priceInfo",
+            "text-content": "$priceInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "linee",
+            "margin": {
+              "top": 153.71175131201744,
+              "bottom": 153.7118123471737
+            },
+            "relative-transform": [
+              [
+                9.084468063971774e-18,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                -3.279494731334154e-15,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "VectorLine"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "VectorLine",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector_line2.svg"
+          },
+          {
+            "id": "previousItemInfo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "previousItem",
+              "previousItemPrice"
+            ],
+            "item-spacing": 79.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemAdds",
+            "padding": {
+              "left": 49.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 34.757568359375
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "previousItemAdd1",
+              "previousItemAdd2"
+            ],
+            "item-spacing": 1.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItem",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "previousItemPhoto",
+              "previousItemNameSize"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPrice",
+            "padding": {
+              "top": 9.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 61.246334075927734
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "children": [
+              "previousItemPriceText"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPhoto",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "image-content": "$previousItemPhoto",
+            "scale": "fill"
+          },
+          {
+            "id": "previousItemNameSize",
+            "padding": {
+              "left": 10.0,
+              "top": 9.0,
+              "right": 10.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "previousItemNameAndSize"
+            ],
+            "item-spacing": 1.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemNameAndSize",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemNameAndSize",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemPriceText",
+            "text-content": "$previousItemPriceText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemAdd1",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemAdd1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemAdd2",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemAdd2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      },
+      "Variant3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": 10.0,
+            "border-radius": 12.0,
+            "tap-handler": "$on OrderCard tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "dateAndPrice",
+              "lineGroup",
+              "previousItemBox"
+            ],
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "dateAndPrice",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "dateInfo",
+              "priceInfo"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "lineGroup",
+            "relative-transform": [
+              [
+                1.9081958235744878e-16,
+                -1.0,
+                0.0
+              ],
+              [
+                1.0,
+                1.9081958235744878e-16,
+                0.0
+              ]
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 16.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 308.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "linee"
+            ]
+          },
+          {
+            "id": "previousItemBox",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 308.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 78.757568359375
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "previousItemInfo",
+              "previousItemAdds"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "dateInfo",
+            "text-content": "$dateInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "priceInfo",
+            "text-content": "$priceInfo",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "linee",
+            "margin": {
+              "top": 153.71175131201744,
+              "bottom": 153.7118123471737
+            },
+            "relative-transform": [
+              [
+                9.084468063971774e-18,
+                1.0,
+                0.0
+              ],
+              [
+                1.0,
+                -3.279494731334154e-15,
+                0.0
+              ]
+            ],
+            "is-structured": false,
+            "children": [
+              "VectorLine"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "VectorLine",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector_line3.svg"
+          },
+          {
+            "id": "previousItemInfo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 0.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "previousItem",
+              "previousItemPrice"
+            ],
+            "item-spacing": 79.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemAdds",
+            "padding": {
+              "left": 49.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 34.757568359375
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 44.0
+              }
+            },
+            "cross-axis-align": "start",
+            "children": [
+              "previousItemAdd1",
+              "previousItemAdd2",
+              "previousItemAdd3"
+            ],
+            "item-spacing": 1.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItem",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "previousItemPhoto",
+              "previousItemNameSize"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPrice",
+            "padding": {
+              "top": 9.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 61.246334075927734
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "end",
+            "children": [
+              "previousItemPriceText"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemPhoto",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 37.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "image-content": "$previousItemPhoto",
+            "scale": "fill"
+          },
+          {
+            "id": "previousItemNameSize",
+            "padding": {
+              "left": 10.0,
+              "top": 9.0,
+              "right": 10.0,
+              "bottom": 9.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "previousItemNameAndSize"
+            ],
+            "item-spacing": 1.0,
+            "clip-content": false
+          },
+          {
+            "id": "previousItemNameAndSize",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemNameAndSize",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemPriceText",
+            "text-content": "$previousItemPriceText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemAdd1",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemAdd1",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemAdd2",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemAdd2",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "previousItemAdd3",
+            "font-weight": 500.0,
+            "annotated-text-content": "$previousItemAdd3",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on OrderCard tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "dateInfo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "priceInfo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "previousItemPhoto": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "previousItemNameAndSize": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "previousItemPriceText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "previousItemAdd1": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "previousItemAdd2": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "previousItemAdd3": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "DefaultVar",
+      "size": {
+        "width": 328.0,
+        "height": 88.69697570800781
+      },
+      "parameters": {
+        "dateInfo": "31 марта 2024",
+        "priceInfo": "205 ₽",
+        "previousItemPhoto": "previous_item_photo.png",
+        "previousItemNameAndSize": {
+          "text": "Капуччино 250 мл",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 10,
+              "annotated-text-style": {
+                "text-size": 12.0
+              }
+            },
+            {
+              "span-start": 10,
+              "span-length": 6,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 12.0,
+                "typeface": "Poppins"
+              }
+            }
+          ]
+        },
+        "previousItemPriceText": "205 ₽",
+        "previousItemAdd1": {
+          "text": "+ ванильный сироп ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 17,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 17,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd2": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd3": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "design": "Variant1",
+      "size": {
+        "width": 328.0,
+        "height": 101.75757598876953
+      },
+      "parameters": {
+        "dateInfo": "31 марта 2024",
+        "priceInfo": "205 ₽",
+        "previousItemPhoto": "previous_item_photo.png",
+        "previousItemNameAndSize": {
+          "text": "Капуччино 250 мл",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 10,
+              "annotated-text-style": {
+                "text-size": 12.0
+              }
+            },
+            {
+              "span-start": 10,
+              "span-length": 6,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 12.0,
+                "typeface": "Poppins"
+              }
+            }
+          ]
+        },
+        "previousItemPriceText": "205 ₽",
+        "previousItemAdd1": {
+          "text": "+ ванильный сироп ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 17,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 17,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd2": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd3": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "design": "Variant2",
+      "size": {
+        "width": 328.0,
+        "height": 116.75757598876953
+      },
+      "parameters": {
+        "dateInfo": "31 марта 2024",
+        "priceInfo": "205 ₽",
+        "previousItemPhoto": "previous_item_photo.png",
+        "previousItemNameAndSize": {
+          "text": "Капуччино 250 мл",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 10,
+              "annotated-text-style": {
+                "text-size": 12.0
+              }
+            },
+            {
+              "span-start": 10,
+              "span-length": 6,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 12.0,
+                "typeface": "Poppins"
+              }
+            }
+          ]
+        },
+        "previousItemPriceText": "205 ₽",
+        "previousItemAdd1": {
+          "text": "+ ванильный сироп ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 17,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 17,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd2": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd3": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "design": "Variant3",
+      "size": {
+        "width": 328.0,
+        "height": 131.757568359375
+      },
+      "parameters": {
+        "dateInfo": "31 марта 2024",
+        "priceInfo": "205 ₽",
+        "previousItemPhoto": "previous_item_photo.png",
+        "previousItemNameAndSize": {
+          "text": "Капуччино 250 мл",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 10,
+              "annotated-text-style": {
+                "text-size": 12.0
+              }
+            },
+            {
+              "span-start": 10,
+              "span-length": 6,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 12.0,
+                "typeface": "Poppins"
+              }
+            }
+          ]
+        },
+        "previousItemPriceText": "205 ₽",
+        "previousItemAdd1": {
+          "text": "+ ванильный сироп ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 17,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 17,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd2": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        },
+        "previousItemAdd3": {
+          "text": "+ банановое молоко ",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 18,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 10.0,
+                "typeface": "Poppins"
+              }
+            },
+            {
+              "span-start": 18,
+              "span-length": 1,
+              "annotated-text-style": {
+                "text-size": 10.0
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

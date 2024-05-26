@@ -1,0 +1,197 @@
+{
+  "name": "geop_found",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "940:2141",
+    "version": "5835053577",
+    "component-id": "661f7be22ad990fe5c82bfeaee65e6c1eac3b0ee"
+  },
+  "default": "GeopFound",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "mapScreenInfo"
+      },
+      {
+        "type": "group",
+        "id": "mapScreenOrderButton"
+      },
+      {
+        "type": "text",
+        "id": "mapScreenAddressKm"
+      },
+      {
+        "type": "text",
+        "id": "mapScreenAddress"
+      },
+      {
+        "type": "text",
+        "id": "mapScreenButtonText"
+      }
+    ],
+    "modes": {
+      "GeopFound": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 11.0,
+              "right": 16.0,
+              "bottom": 11.0
+            },
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "mapScreenInfo",
+              "mapScreenOrderButton"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "mapScreenInfo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "mapScreenAddressKm",
+              "mapScreenAddress"
+            ],
+            "item-spacing": 8.0,
+            "clip-content": false
+          },
+          {
+            "id": "mapScreenOrderButton",
+            "padding": {
+              "left": 16.0,
+              "top": 11.0,
+              "right": 16.0,
+              "bottom": 11.0
+            },
+            "border-radius": 20.0,
+            "tap-handler": "$on mapScreenOrderButton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "mapScreenButtonText"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4980392156862745,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "mapScreenAddressKm",
+            "font-weight": 600.0,
+            "text-content": "$mapScreenAddressKm",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "mapScreenAddress",
+            "font-weight": 500.0,
+            "text-content": "$mapScreenAddress",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "mapScreenButtonText",
+            "font-weight": 600.0,
+            "text-content": "$mapScreenButtonText",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on mapScreenOrderButton tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "mapScreenAddressKm": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "mapScreenAddress": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "mapScreenButtonText": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "GeopFound",
+      "size": {
+        "width": 328.0,
+        "height": 64.0
+      },
+      "parameters": {
+        "mapScreenAddressKm": "Ближайшая кофейня в 3 км",
+        "mapScreenAddress": "ТРЦ “Пятая Авеню”",
+        "mapScreenButtonText": "Заказать сюда"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

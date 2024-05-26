@@ -1,0 +1,914 @@
+{
+  "name": "setting_buttons",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "910:1051",
+    "version": "5826334787",
+    "component-id": "e9fa6a67d4323f8feb2b95d69565491c4f2d7f3e"
+  },
+  "default": "Property 1=DefaultSettingsButtons",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "ordersbutton"
+      },
+      {
+        "type": "group",
+        "id": "bonusesbutton"
+      },
+      {
+        "type": "group",
+        "id": "addressesbutton"
+      },
+      {
+        "type": "group",
+        "id": "settingsbutton"
+      },
+      {
+        "type": "text",
+        "id": "orders"
+      },
+      {
+        "type": "text",
+        "id": "bonuses"
+      },
+      {
+        "type": "text",
+        "id": "addresses"
+      },
+      {
+        "type": "text",
+        "id": "settings"
+      }
+    ],
+    "modes": {
+      "Property 1=DefaultSettingsButtons": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 3.0,
+              "right": 16.0,
+              "bottom": 3.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "ordersbutton",
+              "bonusesbutton",
+              "addressesbutton",
+              "settingsbutton"
+            ],
+            "item-spacing": 2.0
+          },
+          {
+            "id": "ordersbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on ordersbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "orders"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "bonusesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on bonusesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "bonuses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "addressesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on addressesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "addresses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "settingsbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on settingsbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "settings"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "orders",
+            "font-weight": 500.0,
+            "text-content": "$orders",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "bonuses",
+            "font-weight": 500.0,
+            "text-content": "$bonuses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "addresses",
+            "font-weight": 500.0,
+            "text-content": "$addresses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "settings",
+            "font-weight": 500.0,
+            "text-content": "$settings",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      },
+      "Property 1=Variant2": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 3.0,
+              "right": 16.0,
+              "bottom": 3.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "ordersbutton",
+              "bonusesbutton",
+              "addressesbutton",
+              "settingsbutton"
+            ]
+          },
+          {
+            "id": "ordersbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on ordersbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "orders"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "bonusesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on bonusesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "bonuses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "addressesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on addressesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "addresses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "settingsbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on settingsbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "settings"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "orders",
+            "font-weight": 500.0,
+            "text-content": "$orders",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "bonuses",
+            "font-weight": 500.0,
+            "text-content": "$bonuses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "addresses",
+            "font-weight": 500.0,
+            "text-content": "$addresses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "settings",
+            "font-weight": 500.0,
+            "text-content": "$settings",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      },
+      "Property 1=Variant3": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 3.0,
+              "right": 16.0,
+              "bottom": 3.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "ordersbutton",
+              "bonusesbutton",
+              "addressesbutton",
+              "settingsbutton"
+            ],
+            "item-spacing": 2.0
+          },
+          {
+            "id": "ordersbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on ordersbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "orders"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "bonusesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on bonusesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "bonuses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "addressesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on addressesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "addresses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "settingsbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on settingsbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "settings"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "orders",
+            "font-weight": 500.0,
+            "text-content": "$orders",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "bonuses",
+            "font-weight": 500.0,
+            "text-content": "$bonuses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "addresses",
+            "font-weight": 500.0,
+            "text-content": "$addresses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "settings",
+            "font-weight": 500.0,
+            "text-content": "$settings",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      },
+      "Property 1=Variant4": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 3.0,
+              "right": 16.0,
+              "bottom": 3.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "ordersbutton",
+              "bonusesbutton",
+              "addressesbutton",
+              "settingsbutton"
+            ],
+            "item-spacing": 2.0
+          },
+          {
+            "id": "ordersbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on ordersbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "orders"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "bonusesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on bonusesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "bonuses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "addressesbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on addressesbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "addresses"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "settingsbutton",
+            "padding": {
+              "left": 10.0,
+              "top": 3.0,
+              "right": 10.0,
+              "bottom": 3.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on settingsbutton tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "settings"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "orders",
+            "font-weight": 500.0,
+            "text-content": "$orders",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "bonuses",
+            "font-weight": 500.0,
+            "text-content": "$bonuses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "addresses",
+            "font-weight": 500.0,
+            "text-content": "$addresses",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "settings",
+            "font-weight": 500.0,
+            "text-content": "$settings",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on ordersbutton tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on bonusesbutton tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on addressesbutton tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on settingsbutton tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "orders": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "bonuses": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "addresses": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "settings": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=DefaultSettingsButtons",
+      "size": {
+        "width": 360.0,
+        "height": 29.0
+      },
+      "parameters": {
+        "orders": "Заказы",
+        "bonuses": "Баллы",
+        "addresses": "Адреса",
+        "settings": "Настройки профиля"
+      }
+    },
+    {
+      "design": "Property 1=Variant2",
+      "size": {
+        "width": 360.0,
+        "height": 29.0
+      },
+      "parameters": {
+        "orders": "Заказы",
+        "bonuses": "Баллы",
+        "addresses": "Адреса",
+        "settings": "Настройки профиля"
+      }
+    },
+    {
+      "design": "Property 1=Variant3",
+      "size": {
+        "width": 360.0,
+        "height": 29.0
+      },
+      "parameters": {
+        "orders": "Заказы",
+        "bonuses": "Баллы",
+        "addresses": "Адреса",
+        "settings": "Настройки профиля"
+      }
+    },
+    {
+      "design": "Property 1=Variant4",
+      "size": {
+        "width": 360.0,
+        "height": 29.0
+      },
+      "parameters": {
+        "orders": "Заказы",
+        "bonuses": "Баллы",
+        "addresses": "Адреса",
+        "settings": "Настройки профиля"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

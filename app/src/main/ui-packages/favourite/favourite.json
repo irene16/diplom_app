@@ -1,0 +1,410 @@
+{
+  "name": "favourite",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "838:1001",
+    "version": "5825043592",
+    "component-id": "9879e62ceccfee0725326a64bb0c1bd9318035f0"
+  },
+  "default": "favourite",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "favourite_text"
+      },
+      {
+        "type": "group",
+        "id": "favouriteItems"
+      },
+      {
+        "type": "group",
+        "id": "favourite item card"
+      },
+      {
+        "type": "group",
+        "id": "favourite item"
+      },
+      {
+        "type": "image",
+        "id": "favourite_image"
+      },
+      {
+        "type": "group",
+        "id": "favourite_info"
+      },
+      {
+        "type": "group",
+        "id": "favourite_top"
+      },
+      {
+        "type": "group",
+        "id": "favourite_bottom"
+      },
+      {
+        "type": "text",
+        "id": "favourite_name"
+      },
+      {
+        "type": "text",
+        "id": "favourite_size"
+      },
+      {
+        "type": "group",
+        "id": "adds"
+      },
+      {
+        "type": "text",
+        "id": "favourite_price"
+      },
+      {
+        "type": "image",
+        "id": "milk_add"
+      },
+      {
+        "type": "image",
+        "id": "cap_add"
+      }
+    ],
+    "modes": {
+      "favourite": {
+        "rules": [
+          {
+            "id": "top_level",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "favourite_text",
+              "favouriteItems"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "favourite_text",
+            "font-weight": 600.0,
+            "text-content": "$favourite_text",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "favouriteItems",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "favourite item card"
+            ],
+            "item-spacing": 11.0,
+            "scrollable": true,
+            "clip-content": false
+          },
+          {
+            "id": "favourite item card",
+            "padding": {
+              "left": 10.0,
+              "top": 4.0,
+              "right": 10.0,
+              "bottom": 4.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on FavouriteItem tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "favourite item"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "favourite item",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "favourite_image",
+              "favourite_info"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "favourite_image",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 63.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 76.0
+              }
+            },
+            "image-content": "$favourite_image",
+            "scale": "fill"
+          },
+          {
+            "id": "favourite_info",
+            "padding": {
+              "left": 10.0,
+              "top": 9.0,
+              "right": 10.0,
+              "bottom": 9.0
+            },
+            "border-radius": 12.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 154.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 64.0
+              }
+            },
+            "main-axis-align": "space-between",
+            "children": [
+              "favourite_top",
+              "favourite_bottom"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 22.13592233009709,
+              "saturation": 0.403921568627451,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "favourite_top",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 134.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "favourite_name",
+              "favourite_size"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "favourite_bottom",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 134.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "adds",
+              "favourite_price"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "favourite_name",
+            "font-weight": 500.0,
+            "text-content": "$favourite_name",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "favourite_size",
+            "font-weight": 500.0,
+            "text-content": "$favourite_size",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "adds",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "milk_add",
+              "cap_add"
+            ],
+            "item-spacing": 7.0,
+            "clip-content": false
+          },
+          {
+            "id": "favourite_price",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 34.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 25.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "$favourite_price",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-align-vertical": "center",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "milk_add",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 25.0
+              }
+            },
+            "image-content": "$milk_add",
+            "scale": "fill"
+          },
+          {
+            "id": "cap_add",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 22.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 25.0
+              }
+            },
+            "image-content": "$cap_add",
+            "scale": "fill"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "favourite_text": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "on FavouriteItem tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "favourite_image": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "favourite_name": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "favourite_size": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "favourite_price": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "milk_add": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "cap_add": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "favourite",
+      "size": {
+        "width": 344.0,
+        "height": 122.0
+      },
+      "parameters": {
+        "favourite_text": "Любимое:",
+        "favourite_image": "favourite_image.png",
+        "favourite_name": "Капучино",
+        "favourite_size": "250 мл",
+        "favourite_price": "205 ₽",
+        "milk_add": "milk_add.png",
+        "cap_add": "cap_add.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,75 @@
+{
+  "name": "history_of_orders",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "910:1837",
+    "version": "5826337684",
+    "component-id": "3bb4dc1e0b2dd8ca0cf9bd6f62f2d810603f737a"
+  },
+  "default": "HistoryOfOrders",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "HistoryOfOrdersText"
+      }
+    ],
+    "modes": {
+      "HistoryOfOrders": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "top": 16.0,
+              "bottom": 11.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "HistoryOfOrdersText"
+            ],
+            "item-spacing": 10.0,
+            "clip-content": false
+          },
+          {
+            "id": "HistoryOfOrdersText",
+            "font-weight": 600.0,
+            "text-content": "История заказов:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "HistoryOfOrders",
+      "size": {
+        "width": 183.0,
+        "height": 55.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

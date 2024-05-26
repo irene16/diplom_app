@@ -1,0 +1,210 @@
+{
+  "name": "map_card",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "sHopm1dpmHgg0kJiSO4Iop",
+    "node": "838:956",
+    "version": "5825043592",
+    "component-id": "6b39932e3fc592ad68713fa3fe60e632fcc1fdef"
+  },
+  "default": "map card",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "text_group"
+      },
+      {
+        "type": "group",
+        "id": "arrowbutton"
+      },
+      {
+        "type": "text",
+        "id": "address_km"
+      },
+      {
+        "type": "text",
+        "id": "address_name"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      }
+    ],
+    "modes": {
+      "map card": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 16.0,
+              "top": 11.0,
+              "right": 16.0,
+              "bottom": 11.0
+            },
+            "border-radius": 12.0,
+            "tap-handler": "$on MapCard tapped",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "space-between",
+            "children": [
+              "text_group",
+              "arrowbutton"
+            ],
+            "background-color": {
+              "alpha": 0.4,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "clip-content": false
+          },
+          {
+            "id": "text_group",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 176.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 42.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "address_km",
+              "address_name"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "arrowbutton",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 24.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Vector"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "address_km",
+            "font-weight": 600.0,
+            "text-content": "$address_km",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "address_name",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 25.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "$address_name",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 12.0,
+            "line-height": 1.4,
+            "typeface": "Poppins"
+          },
+          {
+            "id": "Vector",
+            "margin": {
+              "left": 8.0,
+              "top": 4.0,
+              "right": 8.0,
+              "bottom": 4.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": -0.5
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": -0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              }
+            },
+            "vector-content": "vector.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on MapCard tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "address_km": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "address_name": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "map card",
+      "size": {
+        "width": 328.0,
+        "height": 64.0
+      },
+      "parameters": {
+        "address_km": "Ближайшая кофейня в 3 км",
+        "address_name": "ТРЦ “Пятая Авеню”"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
